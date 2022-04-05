@@ -8,6 +8,7 @@ import { Auth } from 'aws-amplify';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar';
+import Login from './components/Login';
 class App extends Component {
 
   state = {
@@ -41,6 +42,7 @@ class App extends Component {
               <Route exact path="/" render={(props) => <Register {...props} auth={authProps} />} />
               <Route exact path="/emailVerification" render={(props) => <EmailVerification {...props} auth={authProps}/> }/>
               <Route exact path="/*" render={(props) => <PageNotFound {...props} auth={authProps}/> } />
+              <Route exact path="/login" render={(props) => <Login {...props} auth={authProps} />} />
             </Switch>
           </div>
         </Router>
