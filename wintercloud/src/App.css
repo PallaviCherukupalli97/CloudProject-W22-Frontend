@@ -1,0 +1,26 @@
+h1 {
+    font-size: 2em;
+}
+
+body {
+    visibility: visible !important;
+}
+
+.formfield form {
+    margin-top: 1em;
+    max-width: 50%;
+}
+
+.welcome_heading {
+    color: cornflowerblue;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.buttons {
+    margin-left: 1em;
+}
+
+.linkcss {
+    text-decoration: none;
+}
