@@ -16,6 +16,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
+          <h3 className='heading'>WinterCloud</h3>
         </div>
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-end">

@@ -21,7 +21,7 @@ class ChangePassword extends Component {
           this.state.oldpassword,
           this.state.newpassword
         );
-        this.props.history.push("/changepasswordconfirmation");
+        this.props.history.push("/passwordChange");
       } catch (form_error) {
         this.validateFormFields(form_error)
       }
