@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Auth } from 'aws-amplify';
 
-class PasswordChangeVerification extends Component {
+class PasswordChange extends Component {
   state = {
     verificationcode: "",
     email: "",
@@ -102,4 +102,4 @@ class PasswordChangeVerification extends Component {
   }
 }
 
-export default PasswordChangeVerification;
+export default PasswordChange;

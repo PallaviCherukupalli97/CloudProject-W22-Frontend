@@ -13,7 +13,7 @@ class ForgotPassword extends Component {
     if(formvalid){
     try {
       await Auth.forgotPassword(this.state.email);
-      this.props.history.push('/passwordChangeVerification');
+      this.props.history.push('/passwordChange');
     }catch(form_error) {
       this.validateFormFields(form_error)
     }
