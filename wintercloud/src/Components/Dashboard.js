@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./Dashboard.css";
 import axios from 'axios'
@@ -23,7 +22,7 @@ class Dashboard extends Component {
             alert("File uploaded successfully! Please wait for few minutes to get your csv.")
         }, (error) => {
          console.log(error);
-         alert("Error occurred while fetching file!")
+         alert("Error occurred while sending file!")
        });
      }
 
